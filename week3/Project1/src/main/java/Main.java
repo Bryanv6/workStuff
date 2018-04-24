@@ -292,6 +292,7 @@ public class Main{
     }
     //Employee can update employees info
     public static void updateEmpInfo(Employee emp){
+        System.out.println("What would you like to change?");
 
     }
     //Manager can view all requests from a single employee
