@@ -19,6 +19,7 @@ public class Main{
 
         Scanner sc = new Scanner(System.in);
 
+
         while (true) {
             System.out.println("\n1. Employee Login");
             System.out.println("2. Manager Login");
