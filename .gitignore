@@ -4,6 +4,7 @@
 # Log file
 *.log
 
+.idea/workspace.xml
 # BlueJ files
 *.ctxt
 
