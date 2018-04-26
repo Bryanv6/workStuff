@@ -6,10 +6,10 @@
   <display-name>web</display-name>
 
   <servlet>
-    <servlet-name>HelloWorld</servlet-name>
-    <display-name>HelloWorld</display-name>
+    <servlet-name>MasterServlet</servlet-name>
+    <display-name>MasterServlet</display-name>
     <description></description>
-    <servlet-class>servlets.HelloWorld</servlet-class>
+    <servlet-class>request.MasterServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>SecondServlet</servlet-name>
@@ -18,8 +18,8 @@
     <servlet-class>servlets.SecondServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>HelloWorld</servlet-name>
-    <url-pattern>/HelloWorld</url-pattern>
+    <servlet-name>MasterServlet</servlet-name>
+    <url-pattern>/MasterServlet</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>SecondServlet</servlet-name>

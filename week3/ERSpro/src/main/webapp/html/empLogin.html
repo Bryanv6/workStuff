@@ -47,55 +47,35 @@
     </header>
 
     <!-- Begin page content -->
-
-
     <div class="container">
       <div class="row">
     <div class="col-6">
-      <br><br><br>
-      <h2>Employee Home</h2>
-      <p>Username</p>
-      <p>First Name</p>
-      <p>Last Name</p>
-    </div>
-    <div class="col-6">
+    <br><br><br>
+  <h1>Employee Login</h1>
 
-    <br><br>
-    <table class="table table-dark">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-    </tr>
-  </thead>
-  <tbody id ="requests">
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-    </tr>
-    <tr>
-      <td>Hello</td>
-      <td>World</td>
-    </tr>
-  </tbody>
-</table>
+  <form method="get" action="../MasterServlet">
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 </div>
 </div>
 </div>
 
-    <script src="revjs.js"></script>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

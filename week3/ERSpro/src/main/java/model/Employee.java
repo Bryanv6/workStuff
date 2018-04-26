@@ -1,5 +1,8 @@
 package model;
 
+/**
+ * Created by bryanvillegas on 4/25/18.
+ */
 import java.io.Serializable;
 
 
